@@ -3,6 +3,8 @@ apt update
 apt install keepalived -y
 
 на lb-0
+дізнайтесь який у вас на машині interface ens3
+
 nano /etc/keepalived/keepalived.conf
 
 global_defs {
