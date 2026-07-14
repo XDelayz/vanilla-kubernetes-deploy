@@ -1,4 +1,5 @@
 Тепер починаємо налаштування балансера lb-0
+apt update
 sudo apt install haproxy
 sudo nano /etc/haproxy/haproxy.cfg
 
